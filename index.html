@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link reel="stylesheet" href="./css/style.css">
     <title>Grupo Uribe | GCO</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Prueba</h1>
+    <div class="carrusel">
+        <div class="caras">
+            <div class="cara activa">
+                <video muted autoplay playsinline src="./videos/videoCarrusel.mp4"></video>
+            </div>
+            <div class="cara">
+                <img src="./imagenes/imagenCarrusel.webp" alt="">
+            </div>
+        </div>
+        <button id="atras">❮</button>
+        <button id="adelante">❯</button>
+    </div>
 
-    <h1> La página chimbita</h1>
-
-    <script reel="./js/index.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

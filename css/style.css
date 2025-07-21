@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.carrusel{
+    display: flex;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.caras{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%; 
+}
+
+.cara{
+    min-width: 100%;
+    transition: opacity 0.5s;
+}
+
+.cara img,
+.cara video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+#atras,#adelante{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.activa{
+    display: block;
+}
+
+#atras{left: 10px;}
+#adelante{right: 10px;}
