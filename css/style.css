@@ -2,6 +2,8 @@ body{
     margin: 0;
 }
 
+/* ------------ seccion del carrusel ----------------- */
+
 .carrusel{
     display: flex;
     margin: auto;
@@ -33,12 +35,12 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    color: white;
+    background-color: transparent;
+    color: gray;
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .activa{
@@ -47,3 +49,47 @@ body{
 
 #atras{left: 10px;}
 #adelante{right: 10px;}
+
+/* --------------------------------------------------- */
+/* ------------ seccion de los paneles ----------------- */
+
+.panel1x1{
+
+    width: 100%;
+    padding-bottom: 1rem ;
+    padding-top: 2rem ;
+    text-align: center;
+
+    
+    img{
+        width: 70%;
+    }
+
+}
+
+.panel2x1{
+
+    padding-left: 5rem ;
+    padding-right: 5rem ;
+    padding-bottom: 2rem ;
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        width: 49%;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.panel3x1{
+    
+}
+
+.panel4x1{
+    
+}
+
+/* ----------------------------------------------------- */
