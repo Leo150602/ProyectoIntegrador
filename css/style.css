@@ -2,6 +2,19 @@ body{
     margin: 0;
 }
 
+.fraseInicial{
+    color: #162450;
+    letter-spacing: 2.8px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+    h3{
+        font-family: DINNextLTPro-Regular;
+        font-size: 19px;
+    }
+}
+
 /* ------------ seccion del carrusel ----------------- */
 
 .carrusel{
@@ -69,15 +82,15 @@ body{
 
 .panel2x1{
 
-    padding-left: 5rem ;
-    padding-right: 5rem ;
+    padding-left: 15rem ;
+    padding-right: 15rem ;
     padding-bottom: 2rem ;
     padding-top: 2rem ;
     display: flex;
     justify-content: space-between;
 
     a{
-        width: 49%;
+        width: 49.5%;
     }
     img{
         width: 100%;
@@ -90,6 +103,34 @@ body{
 
 .panel4x1{
     
+    padding-left: 5rem ;
+    padding-right: 5rem ;
+    padding-bottom: 2rem ;
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: space-between;
+
+    h3{
+        font-family: DINNextLTPro-Light;
+        font-size: .85rem;
+        letter-spacing: .8px;
+        
+    }
+
+    p{
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        
+    }
+    
+    a{
+        width: 24.5%;
+        text-decoration: none;
+        color: inherit;
+    }
+    img{
+        width: 100%;
+    }
 }
 
 /* ----------------------------------------------------- */
